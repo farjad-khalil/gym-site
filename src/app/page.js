@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import OurProgram from "@/components/OurProgram";
+import Pricing from "@/components/Pricing";
 import Stats from "@/components/Stats";
 import Trainers from "@/components/Trainer";
 import WhyChoose from "@/components/WhyChoose";
@@ -12,6 +13,7 @@ export default function Home() {
       <WhyChoose />
       <OurProgram />
       <Trainers />
+      <Pricing />
     </div>
   );
 }

@@ -85,3 +85,49 @@ export const TRAINERS = {
     { src: "/images/trainer6.png", width: 397 },
   ],
 };
+
+
+export const PRICING_PLANS = [
+  {
+    title: "Beginner Plan",
+    price: "$10",
+    period: "Month",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+    features: [
+      "Lorem ipsum dolor sit amet,",
+      "Lorem ipsum dolor sit amet,",
+      "Lorem ipsum dolor sit amet,",
+      "Lorem ipsum dolor sit amet,",
+    ],
+    highlight: false,
+  },
+  {
+    title: "Premium Plan",
+    price: "$15",
+    period: "Month",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+    features: [
+      "Lorem ipsum dolor sit amet,",
+      "Lorem ipsum dolor sit amet,",
+      "Lorem ipsum dolor sit amet,",
+      "Lorem ipsum dolor sit amet,",
+      "Lorem ipsum dolor sit amet,",
+    ],
+    highlight: true,
+  },
+  {
+    title: "Premium Plan",
+    price: "$20",
+    period: "Month",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+    features: [
+      "Lorem ipsum dolor sit amet,",
+      "Lorem ipsum dolor sit amet,",
+      "Lorem ipsum dolor sit amet,",
+      "Lorem ipsum dolor sit amet,",
+      "Lorem ipsum dolor sit amet,",
+      "Lorem ipsum dolor sit amet,",
+    ],
+    highlight: false,
+  },
+];
