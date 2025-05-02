@@ -23,3 +23,34 @@ export const STATS = [
   { value: "786+", label: "Happy Members" },
   { value: "95%", label: "Customer Satisfaction" },
 ];
+
+
+
+export const WHY_CHOOSE_ITEMS = [
+  {
+    icon: "/icons/dumbbell.svg",
+    title: "Lorem Ipsum amid",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+  },
+  {
+    icon: "/icons/gym.svg",
+    title: "Lorem Ipsum amid",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+  },
+  {
+    icon: "/icons/water-bottle.svg",
+    title: "Lorem Ipsum amid",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+  },
+  {
+    icon: "/icons/hand.svg",
+    title: "Lorem Ipsum amid",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+  },
+];
+
+export const WHY_CHOOSE_IMAGES = [
+  "/images/choose1.png",
+  "/images/choose2.png",
+  "/images/choose3.png",
+];
