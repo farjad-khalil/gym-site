@@ -54,3 +54,18 @@ export const WHY_CHOOSE_IMAGES = [
   "/images/choose2.png",
   "/images/choose3.png",
 ];
+
+
+
+export const OUR_PROGRAM = {
+  tagline: "Are you looking for a Mentor?",
+  title: "Coaches",
+  description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+Lorem ipsum dolor sit ...`,
+  ctaText: "Explore More",
+  images: [
+    "/images/coach1.png",
+    "/images/coach2.png",
+  ],
+};

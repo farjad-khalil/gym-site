@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import OurProgram from "@/components/OurProgram";
 import Stats from "@/components/Stats";
 import WhyChoose from "@/components/WhyChoose";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Stats/>
       <WhyChoose />
+      <OurProgram />
     </div>
   );
 }
