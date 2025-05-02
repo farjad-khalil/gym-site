@@ -131,3 +131,37 @@ export const PRICING_PLANS = [
     highlight: false,
   },
 ];
+
+
+
+export const FOOTER = {
+  contact: {
+    label: "Call Us Now",
+    phone: "+91 82000-60000",
+    email: "farjadkhalil7@gmail.com",
+    description: "Recusandae quos nesciunt veniam eum quia",
+  },
+  socialLinks: [
+    { icon: "twitter", url: "#" },
+    { icon: "facebook", url: "#" },
+    { icon: "instagram", url: "#" },
+  ],
+  footerLinks: [
+    {
+      title: "Quick Links",
+      links: ["Home", "About Us", "Services", "Contact"],
+    },
+    {
+      title: "Lorem Ipsum",
+      links: ["Lorem", "Lorem", "Lorem", "Lorem"],
+    },
+    {
+      title: "Lorem Ipsum",
+      links: ["Lorem", "Lorem", "Lorem", "Lorem"],
+    },
+    {
+      title: "Lorem Ipsum",
+      links: ["Lorem", "Lorem", "Lorem", "Lorem"],
+    },
+  ],
+};

@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const Pricing = () => {
   return (
-    <section className="w-full  bg-white">
+    <section className="w-full  bg-white py-20">
       <div className="max-w-[1440px] mx-auto text-center px-6 md:px-16 py-10">
         {/* Header */}
         <p className="text-gray-400 text-base mb-2">Pricing Plan</p>

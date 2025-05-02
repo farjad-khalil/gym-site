@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import OurProgram from "@/components/OurProgram";
 import Pricing from "@/components/Pricing";
@@ -14,6 +15,7 @@ export default function Home() {
       <OurProgram />
       <Trainers />
       <Pricing />
+      <Footer />
     </div>
   );
 }
