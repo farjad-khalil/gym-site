@@ -69,3 +69,19 @@ Lorem ipsum dolor sit ...`,
     "/images/coach2.png",
   ],
 };
+
+
+
+
+export const TRAINERS = {
+  title: "Meet Our Trainers",
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+  images: [
+    { src: "/images/trainer1.png", width: 220 },
+    { src: "/images/trainer2.png", width: 574 },
+    { src: "/images/trainer3.png", width: 220 },
+    { src: "/images/trainer4.png", width: 397 },
+    { src: "/images/trainer5.png", width: 220 },
+    { src: "/images/trainer6.png", width: 397 },
+  ],
+};
