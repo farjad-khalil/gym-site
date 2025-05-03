@@ -1,10 +1,9 @@
-// constants/index.ts
-
 export const NAV_LINKS = ["Home", "About", "Services", "Contact"];
 
 export const HERO_CONTENT = {
   heading: "Elevate your workout",
-  subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+  subheading:
+    "Transform your body and mind with expert training, modern equipment, and a supportive community.",
   ctaPrimary: "Get Started",
   ctaSecondary: "Join Now",
 };
@@ -15,8 +14,7 @@ export const SOCIAL_LINKS = [
   { icon: "instagram", url: "#" },
 ];
 
-
-//stats
+// Stats
 export const STATS = [
   { value: "5+", label: "Years of Service" },
   { value: "10+", label: "Certified Trainers" },
@@ -24,28 +22,26 @@ export const STATS = [
   { value: "95%", label: "Customer Satisfaction" },
 ];
 
-
-
 export const WHY_CHOOSE_ITEMS = [
   {
     icon: "/icons/dumbbell.svg",
-    title: "Lorem Ipsum amid",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+    title: "Expert Trainers",
+    text: "Train with certified professionals dedicated to helping you reach your fitness goals.",
   },
   {
     icon: "/icons/gym.svg",
-    title: "Lorem Ipsum amid",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+    title: "Modern Equipment",
+    text: "Stay ahead with cutting-edge machines and tools for all types of workouts.",
   },
   {
     icon: "/icons/water-bottle.svg",
-    title: "Lorem Ipsum amid",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+    title: "Healthy Environment",
+    text: "A clean, safe, and motivating atmosphere to keep you focused and consistent.",
   },
   {
     icon: "/icons/hand.svg",
-    title: "Lorem Ipsum amid",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+    title: "Supportive Community",
+    text: "Join a welcoming fitness family that encourages progress and positivity.",
   },
 ];
 
@@ -55,27 +51,18 @@ export const WHY_CHOOSE_IMAGES = [
   "/images/choose3.png",
 ];
 
-
-
 export const OUR_PROGRAM = {
   tagline: "Are you looking for a Mentor?",
   title: "Coaches",
-  description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et. 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
-Lorem ipsum dolor sit ...`,
+  description: `Our experienced coaches offer personalized training programs designed to match your unique goals. Whether you're just starting out or looking to compete, our team will guide you every step of the way with encouragement, accountability, and expert advice.`,
   ctaText: "Explore More",
-  images: [
-    "/images/coach1.png",
-    "/images/coach2.png",
-  ],
+  images: ["/images/coach1.png", "/images/coach2.png"],
 };
-
-
-
 
 export const TRAINERS = {
   title: "Meet Our Trainers",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+  description:
+    "Our professional trainers bring years of experience, passion, and energy to help you perform at your best. Get inspired by their dedication and start your transformation today.",
   images: [
     { src: "/images/trainer1.png", width: 220 },
     { src: "/images/trainer2.png", width: 574 },
@@ -86,18 +73,18 @@ export const TRAINERS = {
   ],
 };
 
-
 export const PRICING_PLANS = [
   {
     title: "Beginner Plan",
     price: "$10",
     period: "Month",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+    description:
+      "A great starting point for newcomers looking to build consistency and strength.",
     features: [
-      "Lorem ipsum dolor sit amet,",
-      "Lorem ipsum dolor sit amet,",
-      "Lorem ipsum dolor sit amet,",
-      "Lorem ipsum dolor sit amet,",
+      "Access to gym equipment",
+      "1 group class per week",
+      "Locker room access",
+      "Free fitness assessment",
     ],
     highlight: false,
   },
@@ -105,41 +92,42 @@ export const PRICING_PLANS = [
     title: "Premium Plan",
     price: "$15",
     period: "Month",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+    description:
+      "Our most popular plan, designed for those seeking a structured workout routine.",
     features: [
-      "Lorem ipsum dolor sit amet,",
-      "Lorem ipsum dolor sit amet,",
-      "Lorem ipsum dolor sit amet,",
-      "Lorem ipsum dolor sit amet,",
-      "Lorem ipsum dolor sit amet,",
+      "All beginner features",
+      "Unlimited group classes",
+      "Monthly progress tracking",
+      "Personalized workout plan",
+      "Dietary guidance",
     ],
     highlight: true,
   },
   {
-    title: "Premium Plan",
+    title: "Elite Plan",
     price: "$20",
     period: "Month",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+    description:
+      "Full access to premium resources, trainers, and services for serious athletes.",
     features: [
-      "Lorem ipsum dolor sit amet,",
-      "Lorem ipsum dolor sit amet,",
-      "Lorem ipsum dolor sit amet,",
-      "Lorem ipsum dolor sit amet,",
-      "Lorem ipsum dolor sit amet,",
-      "Lorem ipsum dolor sit amet,",
+      "All premium features",
+      "Dedicated personal trainer",
+      "Weekly check-ins",
+      "Supplement consultation",
+      "Priority class booking",
+      "Exclusive fitness events",
     ],
     highlight: false,
   },
 ];
-
-
 
 export const FOOTER = {
   contact: {
     label: "Call Us Now",
     phone: "+91 82000-60000",
     email: "farjadkhalil7@gmail.com",
-    description: "Recusandae quos nesciunt veniam eum quia",
+    description:
+      "Get in touch with our team for membership queries, training support, or facility tours.",
   },
   socialLinks: [
     { icon: "twitter", url: "#" },
@@ -152,16 +140,16 @@ export const FOOTER = {
       links: ["Home", "About Us", "Services", "Contact"],
     },
     {
-      title: "Lorem Ipsum",
-      links: ["Lorem", "Lorem", "Lorem", "Lorem"],
+      title: "Membership",
+      links: ["Pricing", "Plans", "Benefits", "FAQs"],
     },
     {
-      title: "Lorem Ipsum",
-      links: ["Lorem", "Lorem", "Lorem", "Lorem"],
+      title: "Programs",
+      links: ["Strength", "Cardio", "Yoga", "HIIT"],
     },
     {
-      title: "Lorem Ipsum",
-      links: ["Lorem", "Lorem", "Lorem", "Lorem"],
+      title: "Support",
+      links: ["Contact", "Privacy Policy", "Terms", "Feedback"],
     },
   ],
 };
