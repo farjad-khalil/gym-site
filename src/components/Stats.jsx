@@ -3,7 +3,7 @@ import { STATS } from "@/constants";
 
 const Stats = () => {
   return (
-    <section className="bg-secondary text-white py-10 px-4 max-w-[1440px] mx-auto">
+    <section className="bg-[#212121] text-white py-10 px-4 max-w-[1440px] w-full block mx-auto">
       <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
         {STATS.map((stat, index) => (
           <div key={index}>

@@ -42,14 +42,14 @@ const WhyChoose = () => {
                 alt="choose1"
                 width={300}
                 height={200}
-                className="rounded-xl shadow-md object-cover w-full h-auto"
+                className="rounded-xl object-cover w-full h-auto"
               />
               <Image
                 src={WHY_CHOOSE_IMAGES[1]}
                 alt="choose2"
                 width={300}
                 height={200}
-                className="rounded-xl shadow-md object-cover w-full h-auto"
+                className="rounded-xl object-contain w-full h-auto"
               />
             </div>
             <div>
@@ -58,7 +58,7 @@ const WhyChoose = () => {
                 alt="choose3"
                 width={300}
                 height={420}
-                className="rounded-xl shadow-md object-cover w-full h-full"
+                className="rounded-xl  object-cover w-full h-full"
               />
             </div>
           </div>

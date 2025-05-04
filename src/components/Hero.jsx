@@ -29,7 +29,7 @@ const Hero = () => {
                 </li>
               ))}
             </ul>
-            <Button className="">{HERO_CONTENT.ctaSecondary}</Button>
+            <Button className="rounded-4xl" variant="primary" >{HERO_CONTENT.ctaSecondary}</Button>
           </nav>
 
           {/* Main Text */}

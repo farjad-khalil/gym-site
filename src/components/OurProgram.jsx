@@ -24,18 +24,18 @@ const OurProgram = () => {
 
         {/* Text */}
         <div className="w-full lg:w-1/2 text-center lg:text-left">
-          <p className="text-gray-400 text-base md:text-lg mb-1">
+          <p className="text-[#9E9E9E] text-base md:text-lg mb-1">
             {OUR_PROGRAM.tagline}
           </p>
-          <h2 className="text-3xl text-black md:text-4xl font-extrabold mb-4">
+          <h2 className="text-3xl text-[#424242] md:text-4xl font-extrabold mb-4">
             {OUR_PROGRAM.title}
           </h2>
-          <p className="text-gray-500 text-base md:text-lg leading-relaxed mb-6">
+          <p className="text-[#9E9E9E] text-base md:text-lg leading-relaxed mb-6">
             {OUR_PROGRAM.description}
           </p>
           <Button
             variant="secondary"
-            className="px-6 py-2 text-sm md:text-base"
+            className="px-6 py-2 text-sm md:text-base bg-[#212121]"
           >
             {OUR_PROGRAM.ctaText}
           </Button>
