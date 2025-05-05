@@ -75,8 +75,11 @@ export const TRAINERS = {
 
 export const PRICING_PLANS = [
   {
-    title: "Beginner Plan",
-    price: "$10",
+    name: "Beginner Plan",
+    price: {
+      monthly: "$10",
+      yearly: "$96",
+    },
     period: "Month",
     description:
       "A great starting point for newcomers looking to build consistency and strength.",
@@ -86,11 +89,14 @@ export const PRICING_PLANS = [
       "Locker room access",
       "Free fitness assessment",
     ],
-    highlight: false,
+    featured: false,
   },
   {
-    title: "Premium Plan",
-    price: "$15",
+    name: "Premium Plan",
+    price: {
+      monthly: "$10",
+      yearly: "$96",
+    },
     period: "Month",
     description:
       "Our most popular plan, designed for those seeking a structured workout routine.",
@@ -101,11 +107,14 @@ export const PRICING_PLANS = [
       "Personalized workout plan",
       "Dietary guidance",
     ],
-    highlight: true,
+    featured: true,
   },
   {
     title: "Elite Plan",
-    price: "$20",
+    price: {
+      monthly: "$10",
+      yearly: "$96",
+    },
     period: "Month",
     description:
       "Full access to premium resources, trainers, and services for serious athletes.",
@@ -117,7 +126,7 @@ export const PRICING_PLANS = [
       "Priority class booking",
       "Exclusive fitness events",
     ],
-    highlight: false,
+    featured: false,
   },
 ];
 

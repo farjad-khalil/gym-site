@@ -3,12 +3,12 @@ import { STATS } from "@/constants";
 
 const Stats = () => {
   return (
-    <section className="bg-[#212121] text-white py-10 px-4 max-w-[1440px] w-full block mx-auto">
-      <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
+    <section className="bg-[#212121] text-white py-10 px-4  w-full block mx-auto">
+      <div className="grid max-w-6xl grid-cols-2 gap-8 mx-auto text-center sm:grid-cols-4">
         {STATS.map((stat, index) => (
           <div key={index}>
             <h3 className="text-3xl font-extrabold">{stat.value}</h3>
-            <p className="text-sm font-medium mt-2">{stat.label}</p>
+            <p className="mt-2 text-sm font-medium">{stat.label}</p>
           </div>
         ))}
       </div>

@@ -4,71 +4,20 @@ import { useState } from "react"
 import { CircleCheckBig } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
-
-const pricingPlans = [
-  {
-    name: "Beginner Plan",
-    price: {
-      monthly: "$10",
-      yearly: "$96",
-    },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-    features: [
-      "Lorem ipsum dolor sit amet.",
-      "Lorem ipsum dolor sit amet.",
-      "Lorem ipsum dolor sit amet.",
-      "Lorem ipsum dolor sit amet.",
-    ],
-    featured: false,
-  },
-  {
-    name: "Premium Plan",
-    price: {
-      monthly: "$15",
-      yearly: "$144",
-    },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-    features: [
-      "Lorem ipsum dolor sit amet.",
-      "Lorem ipsum dolor sit amet.",
-      "Lorem ipsum dolor sit amet.",
-      "Lorem ipsum dolor sit amet.",
-      "Lorem ipsum dolor sit amet.",
-    ],
-    featured: true,
-  },
-  {
-    name: "Premium Plan",
-    price: {
-      monthly: "$20",
-      yearly: "$192",
-    },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-    features: [
-      "Lorem ipsum dolor sit amet.",
-      "Lorem ipsum dolor sit amet.",
-      "Lorem ipsum dolor sit amet.",
-      "Lorem ipsum dolor sit amet.",
-      "Lorem ipsum dolor sit amet.",
-      "Lorem ipsum dolor sit amet.",
-      "Lorem ipsum dolor sit amet.",
-    ],
-    featured: false,
-  },
-]
+import { PRICING_PLANS } from "@/constants"
 
 export function PricingPlan() {
   const [billingCycle, setBillingCycle] = useState("monthly")
 
   return (
-    <section className="w-full py-12 md:py-16 lg:py-20 flex justify-center">
-      <div className="container px-4 md:px-6">
+    <section className="flex justify-center w-full py-12 md:py-16 lg:py-20">
+      <div className="container px-6 md:px-16 max-w-[1440px] mx-auto">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
           <div>
             <h3 className="text-lg font-medium text-muted-foreground">Pricing Plan</h3>
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">JOIN TODAY</h2>
           </div>
-          <div className="flex items-center space-x-2 rounded-full bg-muted p-1">
+          <div className="flex items-center p-1 space-x-2 rounded-full bg-muted">
             <Button
               variant="ghost"
               size="sm"
@@ -87,8 +36,8 @@ export function PricingPlan() {
             </Button>
           </div>
         </div>
-        <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {pricingPlans.map((plan, index) => (
+        <div className="grid grid-cols-1 gap-6 mt-10 md:grid-cols-2 lg:grid-cols-3">
+          {PRICING_PLANS.map((plan, index) => (
             <div
               key={index}
               className={cn(
@@ -98,7 +47,7 @@ export function PricingPlan() {
             >
               <div className="p-6">
                 <h3 className="text-lg font-medium">{plan.name}</h3>
-                <div className="mt-2 flex items-baseline">
+                <div className="flex items-baseline mt-2">
                   <span className="text-3xl font-bold">
                     {billingCycle === "monthly" ? plan.price.monthly : plan.price.yearly}
                   </span>
@@ -123,7 +72,7 @@ export function PricingPlan() {
               </div>
 
               {/* This will push the button to the bottom */}
-              <div className="mt-auto p-6 pt-0">
+              <div className="p-6 pt-0 mt-auto">
                 <Button
                   className={cn(
                     "w-full",
