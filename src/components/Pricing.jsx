@@ -10,7 +10,7 @@ export function PricingPlan() {
   const [billingCycle, setBillingCycle] = useState("monthly")
 
   return (
-    <section className="flex justify-center w-full py-12 md:py-16 lg:py-20">
+    <section id="Services" className="flex justify-center w-full py-12 md:py-16 lg:py-20">
       <div className="container px-6 md:px-16 max-w-[1440px] mx-auto">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
           <div>
