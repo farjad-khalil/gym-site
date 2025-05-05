@@ -7,7 +7,7 @@ const OurProgram = () => {
     <section className="w-full bg-white">
       <div className="max-w-[1440px] mx-auto px-6 md:px-16 py-10 flex flex-col lg:flex-row items-center gap-10">
         {/* Images */}
-        <div className="flex gap-6 w-full lg:w-1/2 justify-center">
+        <div className="flex flex-wrap gap-6 w-full lg:w-1/2 justify-center">
           {OUR_PROGRAM.images.map((src, index) => (
             <Image
               key={index}
